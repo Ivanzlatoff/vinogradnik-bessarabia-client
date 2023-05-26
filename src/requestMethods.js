@@ -2,7 +2,7 @@ import axios from 'axios';
 import { TOKEN } from './constants';
 import jwt_decode from "jwt-decode";
 
-export const BASE_URL = 'https://dark-tan-yak-garb.cyclic.app';
+export const BASE_URL = 'https://dark-tan-yak-garb.cyclic.app/api';
 
 export const publicRequest = axios.create({
     baseURL: BASE_URL

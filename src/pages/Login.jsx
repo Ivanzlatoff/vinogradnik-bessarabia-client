@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import bcrypt from 'bcryptjs';
+
 
 const Container = styled.div`
     width: 100vw;
@@ -95,12 +95,10 @@ const Login = () => {
     const dispatch = useDispatch();
     const { isFetching, error } = useSelector((state) => state.user);
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const salt = bcrypt.genSaltSync(10);
 
     const onSubmit = (data, e) => {
         e.preventDefault();
-        const hashedPassword = bcrypt.hashSync(password, salt)
-        login(dispatch, { username, hashedPassword });
+        login(dispatch, { username, password });
     };  
 
     const { t } = useTranslation(["login"]);
