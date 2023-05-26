@@ -1,0 +1,16 @@
+{
+    "filter_products": "Filter Products:",
+    "color": "Color",
+    "red": "Red",
+    "white": "White",
+    "type": "Type",
+    "isabella": "Isabella",
+    "odesskiy_cherniy": "Odesskiy Cherniy",
+    "merlot": "Merlot",
+    "kabernet": "Kabernet",
+    "sort_products": "Sort Products:",
+    "newest": "Newest",
+    "price": "Price",
+    "asc": "asc",
+    "desc": "desc"
+}

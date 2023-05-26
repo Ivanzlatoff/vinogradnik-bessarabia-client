@@ -1,0 +1,12 @@
+{
+    "sign_in": "SIGN IN",
+    "as_guest": "or continue as a guest",
+    "username": "username",
+    "password": "password",
+    "check_username": "Please check the username.",
+    "check_password": "Please check the password.",
+    "login": "LOGIN",
+    "wrong": "Something went wrong",
+    "not_remember_password": "DO NOT REMEMBER THE PASSWORD?",
+    "create_new": "CREATE A NEW ACCOUNT"
+}

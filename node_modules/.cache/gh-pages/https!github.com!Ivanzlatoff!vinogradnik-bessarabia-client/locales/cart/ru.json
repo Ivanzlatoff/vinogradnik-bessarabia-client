@@ -1,0 +1,37 @@
+{
+    "your_cart": "ВАША КОРЗИНА",
+    "continue_shopping": "ПРОДОЛЖИТЬ ПОКУПКИ",
+    "shopping_bag": "Корзина",
+    "your_wishlist": "Ваш список желаний",
+    "checkout": "ОПЛАТИТЬ СЕЙЧАС",
+    "product": "Товар",
+    "price": "Цена",
+    "currency": "грн",
+    "per_kg": "ЗА КГ",
+    "kg": "кг",
+    "order_summary": "ИТОГИ ЗАКАЗА",
+    "subtotal": "ПРОМЕЖУТОЧНЫЙ ИТОГ",
+    "est_shipping": "ПРИБЛИЗИТЕЛЬНАЯ ДОСТАВКА",
+    "shipping_discount": "Скидка на доставку",
+    "total": "Всего",
+    "empty_cart": "ОЧИСТИТЬ МОЙ КОРЗИНУ",
+    "stripe_name": "Виноградник Бессарабии",
+    "stripe_desc": "Ваша сумма составляет",
+    "red": "красный",
+    "white": "белый",
+    "Merlot": "Мерло",
+    "Odessky Cherny": "Одесский Черный",
+    "Isabella": "Изабелла",
+    "Cabernet Sauvignon": "Каберне Совиньон",
+    "productCode": "Код товара:",
+    "of": "из",
+    "removed": "удален из корзины.",
+    "clear_cart": "Ваша корзина для покупок очищена!",
+    "proceed_to_payment": "Перейти к оплате",
+    "pay": "Оплатить"
+}
+
+
+
+
+

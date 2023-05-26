@@ -1,0 +1,23 @@
+{
+    "create_account": "СТВОРИТИ АККАУНТ",
+    "as_guest": "або продовжити як гість",
+    "name_placeholder": "Ім'я",
+    "first_name_check": "Перевірте ім'я",
+    "lastname_placeholder": "прізвище",
+    "check_lastname": "Будь ласка, перевірте прізвище",
+    "email_placeholder": "електронна пошта",
+    "check_email": "Будь ласка, перевірте електронну пошту",
+    "username_placeholder": "ім'я користувача",
+    "check_username": "Будь ласка, перевірте ім'я користувача",
+    "password_placeholder": "пароль",
+    "check_password": "Перевірте пароль. Він має містити одну велику літеру, одну малу літеру, а кількість символів має бути від 6 до 15",
+    "confirm_password_placeholder": "підтвердити пароль",
+    "passwords_match": "Паролі збігаються!",
+    "passwords_not_match": "Паролі не збігаються!",
+    "agreement": "Створюючи обліковий запис, я даю згоду на обробку моїх персональних даних відповідно до",
+    "privacy_policy": "ПОЛІТИКИ КОНФІДЕНЦІЙНОСТІ",
+    "create": "СТВОРИТИ",
+    "have_account": "Вже є аккаунт?",
+    "sign_in": "Увійти",
+    "registration_confirmation": "Ви успішно зареєструвалися!"
+}
