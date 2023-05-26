@@ -1,0 +1,17 @@
+{
+    "currency": "грн",
+    "per_kg": "за 1 кг",
+    "choose_color": "Выберите цвет (нажмите)",
+    "selected_color": "Выбранный цвет:",
+    "kg": "кг",
+    "add_to_cart": "ДОБАВИТЬ В КОРЗИНУ",
+    "buy_now": "КУПИТЬ СЕЙЧАС",
+    "Merlot": "Мерло",
+    "Odessky Cherny": "Одесский Черный",
+    "Isabella": "Изабелла",
+    "Cabernet Sauvignon": "Каберне Совиньон",
+    "red": "красный",
+    "white": "белый",
+    "kg_of": "кг",
+    "added_to_cart": "добавлено в корзину."
+}

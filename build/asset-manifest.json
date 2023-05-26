@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/css/main.c8da9ad4.css",
+    "main.js": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/main.a9dd9ac6.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/Ivanzlatoff/vinogradnik-bessarabia-client/index.html",
+    "static/media/getFetch.cjs": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.c8da9ad4.css.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/css/main.c8da9ad4.css.map",
+    "main.a9dd9ac6.js.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/main.a9dd9ac6.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8da9ad4.css",
+    "static/js/main.a9dd9ac6.js"
+  ]
+}

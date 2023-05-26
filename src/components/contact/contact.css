@@ -1,0 +1,104 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),
+                rgba(255, 255, 255, 0.5)),
+        url("https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/grape-icon.png?alt=media&token=edb90e89-ed75-4e1d-b172-d92fdaba92bb");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 0;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    opacity: 0.9;
+    border: grey solid 1px;
+    border-radius: 20px;
+}
+
+.formField {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 50vw;
+    height: 20vh;
+    font-size: 18px;
+}
+
+.formField > label {
+    color: grey;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.formField > select {
+    padding: 10px;
+}
+
+.formField > input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 200;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    width: 50vw;
+    border: none;
+    padding: 10px 10px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;    
+    font-size: 24px;
+    font-weight: 300;
+}
+
+button:hover {
+    background-color: #4e8773;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.msgSent {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: lightgray;
+    opacity: 0.9;
+    border: grey solid 1px;
+    border-radius: 20px;
+}
+
+.homeLink {
+    text-decoration: none;
+}
+
+.homeButton {
+    width: 100%;
+    margin-top: 40px;
+    font-size: 20px;
+    border: none;
+    padding: 15px 20px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
