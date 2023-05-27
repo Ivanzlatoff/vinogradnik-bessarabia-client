@@ -27,6 +27,11 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  ${mobileLarge({
+    width: '90vw',
+    marginTop: '50px',
+    padding: '20px'
+  })}
 `;
 
 const Icon = styled.p`
@@ -40,8 +45,11 @@ const ThankYou = styled.h2`
   font-weight: 900;
   font-size: 40px;
   color:#324d67;
+  text-align: center;
   ${mobileLarge({
-    fontSize: '24px'
+    fontSize: '30px',
+    fontWeight: '400',
+    marginTop: '10px'
   })}
 `;
 
@@ -50,7 +58,6 @@ const EmailMsg = styled.p`
   font-weight: 600;
   text-align: center;
   ${mobileLarge({
-    fontSize: '14px',
     fontWeight: '400'
   })}
 `;
@@ -62,8 +69,7 @@ const Desc = styled.p`
   margin: 10px;
   margin-top: 30px;
   ${mobileLarge({
-    fontSize: '14px',
-    fontWeight: '400'
+    fontWeight: '400',
   })}
 `;
 
@@ -80,7 +86,7 @@ const Button = styled.button`
     color: white;
     margin-top: 10px;
     ${mobileLarge({
-      fontSize: '14px',
+      fontSize: '18px',
       fontWeight: '400'
     })}
 `;
