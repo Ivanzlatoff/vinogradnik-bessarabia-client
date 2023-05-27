@@ -5,7 +5,9 @@ import { userRequest } from "../requestMethods";
 export const fetchCart = createAsyncThunk('cart/fetchCart', async (userId) => {
     try {
         const res = await userRequest.get(`carts/find/${userId}`, {
-            withCredentials: true
+            headers: {
+                "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
+            }
         });
         return res.data;
     } catch (err) {
@@ -18,7 +20,9 @@ export const saveNewCart = createAsyncThunk('cart/saveNewCart', async cart => {
     try {
         const res = await userRequest.put(`/${cart.id}`, { 
             cart: newCart,
-            withCredentials: true
+            headers: {
+                "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
+            }
         });
         return res.data
     } catch(err) {

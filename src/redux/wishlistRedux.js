@@ -4,7 +4,9 @@ import { userRequest } from "../requestMethods";
 
 export const fetchWishlist = createAsyncThunk('wishlist/fetchWishlist', async (userId) => {
     const res = await userRequest.get(`wishlists/find/${userId}`, {
-        withCredentials: true
+        headers: {
+            "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
+        }
     });
     return res.data;
 });
@@ -14,7 +16,9 @@ export const saveNewWishlist = createAsyncThunk('wishlist/saveNewWishlist', asyn
     try {
         const res = await userRequest.put(`/${wishlist.id}`, { 
             wishlist: newWishlist,
-            withCredentials: true
+            headers: {
+                "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
+            }
         })
         return res.data;
     } catch(err) {
