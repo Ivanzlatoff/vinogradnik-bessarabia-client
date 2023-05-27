@@ -20,6 +20,12 @@ const Container = styled.div`
     background-color: white;
     top: 0;
     z-index: 999;
+    ${mobileLarge({
+        backgroundColor: '#b0c24a',
+        borderRadius: '10px',
+        width: '98vw',
+        margin: '5px auto 10px',
+    })}
 `;
 
 const Wrapper = styled.div`

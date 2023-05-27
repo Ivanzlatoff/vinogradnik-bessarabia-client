@@ -114,19 +114,20 @@ button:disabled {
     .container {
         width: 90vw;
         margin: auto;
+        margin-top: 50px;
     }
     .contactForm {
-        width: 80vw; 
+        width: 95vw; 
         height: 150vh;
+        padding: 5px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     .formField {
-        width: 80vw;
+        width: 90vw;
         margin: auto;
-        text-align: center;
     }
     .formField>input {
         padding: 5px;
@@ -141,12 +142,12 @@ button:disabled {
     }
 
     button {
-        width: 80vw;
+        width: 90vw;
         margin: auto;
         text-align: center;
     }
     textarea {
-        width: 80vw;
+        width: 90vw;
         height: 20vh;
         font-size: 18px;
     }
