@@ -7,14 +7,14 @@ export const BASE_URL = 'https://dark-tan-yak-garb.cyclic.app/api';
 export const publicRequest = axios.create({
     baseURL: BASE_URL,
     headers: {
-        "Access-Control-Allow-Origin": "true"
+        "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
     }
 });
 
 export const userRequest = axios.create({
     baseURL: BASE_URL,
     headers: {
-        "Access-Control-Allow-Origin": "true"
+        "Access-Control-Allow-Origin": ["http://localhost:3000", "https://main.dri9uy0bmhz14.amplifyapp.com/"]
     }
 });
 
