@@ -1,4 +1,3 @@
-
 .container {
     width: 100vw;
     height: 100vh;
@@ -31,41 +30,6 @@
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        margin-top: 20px;
-    }
-    .contactForm {
-        width: 100vw; 
-        height: 150vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .formField {
-        width: 100vw;
-        margin: auto;
-        text-align: center;
-    }
-    .formField>input {
-        padding: 5px;
-        font-size: 14px;
-    }
-
-    h1 {
-        font-size: 16px;
-        font-weight: 200;
-        margin: auto;
-        text-align: center;
-    }
-
-    button {
-        width: 100vw;
-        margin: auto;
-        text-align: center;
-    }
-}
 
 
 .formField {
@@ -144,4 +108,46 @@ button:disabled {
     background-color: teal;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90vw;
+        margin: auto;
+    }
+    .contactForm {
+        width: 80vw; 
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formField {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+    .formField>input {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 200;
+        margin: auto;
+        text-align: center;
+    }
+
+    button {
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+    textarea {
+        width: 80vw;
+        height: 20vh;
+        font-size: 18px;
+    }
 }
