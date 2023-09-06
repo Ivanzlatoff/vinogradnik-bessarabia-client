@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/css/main.c8da9ad4.css",
-    "main.js": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/main.a9dd9ac6.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/787.c4e7f8f9.chunk.js",
-    "index.html": "/Ivanzlatoff/vinogradnik-bessarabia-client/index.html",
-    "static/media/getFetch.cjs": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.c8da9ad4.css.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/css/main.c8da9ad4.css.map",
-    "main.a9dd9ac6.js.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/main.a9dd9ac6.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/Ivanzlatoff/vinogradnik-bessarabia-client/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/vinogradnik-bessarabia/static/css/main.1975c399.css",
+    "main.js": "/vinogradnik-bessarabia/static/js/main.b3dead1b.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/vinogradnik-bessarabia/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/vinogradnik-bessarabia/index.html",
+    "static/media/getFetch.cjs": "/vinogradnik-bessarabia/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.1975c399.css.map": "/vinogradnik-bessarabia/static/css/main.1975c399.css.map",
+    "main.b3dead1b.js.map": "/vinogradnik-bessarabia/static/js/main.b3dead1b.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/vinogradnik-bessarabia/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8da9ad4.css",
-    "static/js/main.a9dd9ac6.js"
+    "static/css/main.1975c399.css",
+    "static/js/main.b3dead1b.js"
   ]
 }
