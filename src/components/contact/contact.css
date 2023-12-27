@@ -1,4 +1,3 @@
-
 .container {
     width: 100vw;
     height: 100vh;
@@ -18,12 +17,20 @@
 
 .contactForm {
     margin-top: 10px;
+    width: 100vw;
+    height: 100vh;
     padding: 20px;
     background-color: lightgray;
     opacity: 0.9;
     border: grey solid 1px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .formField {
     width: 50vw;
@@ -101,4 +108,47 @@ button:disabled {
     background-color: teal;
     color: white;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90vw;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .contactForm {
+        width: 95vw; 
+        height: 150vh;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formField {
+        width: 90vw;
+        margin: auto;
+    }
+    .formField>input {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 200;
+        margin: auto;
+        text-align: center;
+    }
+
+    button {
+        width: 90vw;
+        margin: auto;
+        text-align: center;
+    }
+    textarea {
+        width: 90vw;
+        height: 20vh;
+        font-size: 18px;
+    }
 }

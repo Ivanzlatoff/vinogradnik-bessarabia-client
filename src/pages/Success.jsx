@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import { publicRequest } from "../requestMethods";
 import { useTranslation } from "react-i18next";
 import { memo } from 'react';
+import { mobileLarge } from '../responsive';
 
 
 const Container = styled.div`
@@ -26,6 +27,11 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  ${mobileLarge({
+    width: '90vw',
+    marginTop: '50px',
+    padding: '20px'
+  })}
 `;
 
 const Icon = styled.p`
@@ -39,12 +45,21 @@ const ThankYou = styled.h2`
   font-weight: 900;
   font-size: 40px;
   color:#324d67;
+  text-align: center;
+  ${mobileLarge({
+    fontSize: '30px',
+    fontWeight: '400',
+    marginTop: '10px'
+  })}
 `;
 
 const EmailMsg = styled.p`
   font-size: 16px;
   font-weight: 600;
   text-align: center;
+  ${mobileLarge({
+    fontWeight: '400'
+  })}
 `;
 
 const Desc = styled.p`
@@ -53,6 +68,9 @@ const Desc = styled.p`
   text-align: center;
   margin: 10px;
   margin-top: 30px;
+  ${mobileLarge({
+    fontWeight: '400',
+  })}
 `;
 
 const EmailTo = styled.a`
@@ -67,6 +85,10 @@ const Button = styled.button`
     background-color: black;
     color: white;
     margin-top: 10px;
+    ${mobileLarge({
+      fontSize: '18px',
+      fontWeight: '400'
+    })}
 `;
 
 const Success = () => {

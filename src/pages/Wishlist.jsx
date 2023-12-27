@@ -152,6 +152,7 @@ const Wishlist = () => {
     const wishlist = useSelector(state => state.wishlist);
     const dispatch = useDispatch();
     const { t } = useTranslation(["wishlist"]);
+    const lang = localStorage.getItem("i18nextLng")
 
     const handleDelete = (product) => {
         dispatch(
@@ -209,7 +210,7 @@ const Wishlist = () => {
                                     <UnitPrice><b>{t("price")}: </b>{product.price} {t("uah")} {t("per_kg")}</UnitPrice>
                                 </Details>
                             </ProductDetails>
-                            <Desc>{product.desc[localStorage.getItem("i18nextLng")]}</Desc>
+                            <Desc>{(product.desc[lang])?.substring(0, 400)}...</Desc>
                             <ClearIcon 
                                 style={{ 
                                     color: 'grey', 

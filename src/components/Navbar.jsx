@@ -2,7 +2,7 @@ import { useState, useEffect, memo } from 'react';
 import styled from 'styled-components';
 import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
-import { ShoppingCartOutlined, Favorite } from '@mui/icons-material/';
+import { ShoppingCartOutlined, Favorite, Home } from '@mui/icons-material/';
 import { Link, useNavigate } from 'react-router-dom';
 import { logout } from "../redux/apiCalls";
 import { useDispatch, useSelector } from "react-redux";
@@ -20,6 +20,12 @@ const Container = styled.div`
     background-color: white;
     top: 0;
     z-index: 999;
+    ${mobileLarge({
+        backgroundColor: '#b0c24a',
+        borderRadius: '10px',
+        width: '96vw',
+        margin: '5px auto 10px',
+    })}
 `;
 
 const Wrapper = styled.div`
@@ -27,6 +33,9 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    ${mobileLarge({
+        padding: '4px 8px'
+    })}
 `;
 
 const Left = styled.div`
@@ -103,6 +112,11 @@ const Language = styled.select`
     ${tablet({
         fontSize: '12px',
         padding: '5px'
+    })};
+    ${mobile({
+        fontSize: '12px',
+        padding: '2px',
+        marginRight: '2px'
     })};
 `;
 
@@ -267,6 +281,16 @@ const Navbar = () => {
     <Container>
         <Wrapper>
             <Left>
+                <Link 
+                    to="/" 
+                    style={{ 
+                        textDecoration: 'none',
+                        marginRight: '10px',
+                        marginLeft: '-5px'
+                    }}
+                >
+                    <Home color="action" fontSize='large'/>
+                </Link>
                 <Language 
                     onChange={handleLanguage} 
                     value={localStorage.getItem("i18nextLng")}
