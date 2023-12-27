@@ -172,30 +172,8 @@ const Footer = () => {
             {t("send_message")}
         </Link>
         {/* <ContactItem><PlaceIcon style={{ marginRight: '10px'}}/>{t("address")}</ContactItem> */}
-<<<<<<< HEAD
         <ContactItem href="tel:+380961040713"><PhoneIcon style={{ marginRight: '10px'}} type="tel"/> +38 (096) 104 07 13</ContactItem>
         <ContactItem href="mailto:vinogradnik.bessarabii@gmail.com"><EmailIcon style={{ marginRight: '10px'}}/> vinogradnik.bessarabii@gmail.com </ContactItem>
-=======
-        <ContactItem>
-            <PhoneIcon style={{ marginRight: '10px'}} type="tel"/> 
-            <a 
-                href={`tel:+380961040713`}
-                style={{ textDecoration: 'none', color: 'white' }}
-            >
-                +38 (096) 104 07 13
-            </a>
-        </ContactItem>
-        <ContactItem>
-            <EmailIcon style={{ marginRight: '10px'}}/> 
-            <a 
-                href={`mailto:ivanzlatoff@gmail.com`} 
-                onClick={() => window.location.href=`mailto:ivanzlatoff@gmail.com`}
-                style={{ textDecoration: 'none', color: 'white' }}
-            >
-                ivanzlatoff@gmail.com 
-            </a>
-        </ContactItem>
->>>>>>> ea697bd74864f2f17d13568ed992da546643c39d
         <Payment src='https://i.ibb.co/Qfvn4z6/payment.png'/>
       </Right>
     </Container>
