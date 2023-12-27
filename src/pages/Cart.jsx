@@ -247,7 +247,7 @@ const Cart = () => {
         stripeToken && cart.totalPrice >= 1 &&
         (async () => {
             try {
-                const res = await publicRequest.post('/api/checkout/payment', {
+                const res = await publicRequest.post('/checkout/payment', {
                     tokenId: stripeToken.id,
                     amount: grandTotal * 100,
                     email,

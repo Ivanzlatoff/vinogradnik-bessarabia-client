@@ -218,42 +218,42 @@ const Navbar = () => {
         e.preventDefault();
         try { 
             if (cartQuantity && !cartId) {
-                await userRequest.post('/api/carts', {
+                await userRequest.post('/carts', {
                     userId: user._id, 
                     products: cartProducts,
                     createdAt: new Date(),
                     updatedAt: new Date()                   
                 });            
             } else if (cartQuantity && cartId) {
-                await userRequest.put(`/api/carts/${cartId}`, {
+                await userRequest.put(`/carts/${cartId}`, {
                     userId: user._id, 
                     products: cartProducts,
                     createdAt,
                     updatedAt: new Date()                   
                 });
             } else if (!cartQuantity && cartId) {
-                await userRequest.delete(`/api/carts/${cartId}`)
+                await userRequest.delete(`/carts/${cartId}`)
             }
         } catch(err) {
             console.log(err);
         }
         try {
             if (wishlistQuantity && !wishlistId) {
-                await userRequest.post('/api/wishlists', {
+                await userRequest.post('/wishlists', {
                     userId: user._id, 
                     products: wishlistProducts,
                     createdAt: new Date(),
                     updatedAt: new Date()                   
                 });            
             } else if (wishlistQuantity && wishlistId) {
-                await userRequest.put(`/api/wishlists/${wishlistId}`, {
+                await userRequest.put(`/wishlists/${wishlistId}`, {
                     userId: user._id, 
                     products: wishlistProducts,
                     createdAt,
                     updatedAt: new Date()                   
                 });
             } else if (!wishlistQuantity && wishlistId) {
-                await userRequest.delete(`/api/wishlists/${wishlistId}`)
+                await userRequest.delete(`/wishlists/${wishlistId}`)
             }
         } catch(err) {
             console.log(err);

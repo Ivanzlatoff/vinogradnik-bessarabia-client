@@ -210,7 +210,7 @@ const Product = () => {
             try {
                 if (!ignore) {
                     setIsLoading(true);
-                    const res = await publicRequest.get('/api/products/find/' + id)
+                    const res = await publicRequest.get('/products/find/' + id)
                     setProduct(res.data)
                     setColor(res.data.color[0])
                 }

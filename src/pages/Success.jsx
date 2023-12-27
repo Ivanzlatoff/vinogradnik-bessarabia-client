@@ -104,7 +104,7 @@ const Success = () => {
     useEffect(() => {
       data && (async () => {
         try {
-          const res = await publicRequest.post("/api/orders", {
+          const res = await publicRequest.post("/orders", {
               userId: currentUser?._id,
               products: cart.products.map((item) => ({
                 productId: item._id,
