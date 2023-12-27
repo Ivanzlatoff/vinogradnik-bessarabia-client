@@ -175,7 +175,13 @@ const Navbar = () => {
     const [search, setSearch] = useState('');
     const navigate = useNavigate();
     const { i18n, t } = useTranslation(["navbar"]);
-    
+
+    useEffect(() => {
+        if (localStorage.getItem("i18nextLng")?.length > 2) {
+            i18next.changeLanguage("ua");
+        }
+    }, []);
+
     useEffect(() => {
         let ignore = false;
         if (userId && cartStatus === cartStatuses.IDLE) {
@@ -198,42 +204,42 @@ const Navbar = () => {
         e.preventDefault();
         try { 
             if (cartQuantity && !cartId) {
-                await userRequest.post('carts', {
+                await userRequest.post('/api/carts', {
                     userId: user._id, 
                     products: cartProducts,
                     createdAt: new Date(),
                     updatedAt: new Date()                   
                 });            
             } else if (cartQuantity && cartId) {
-                await userRequest.put(`carts/${cartId}`, {
+                await userRequest.put(`/api/carts/${cartId}`, {
                     userId: user._id, 
                     products: cartProducts,
                     createdAt,
                     updatedAt: new Date()                   
                 });
             } else if (!cartQuantity && cartId) {
-                await userRequest.delete(`carts/${cartId}`)
+                await userRequest.delete(`/api/carts/${cartId}`)
             }
         } catch(err) {
             console.log(err);
         }
         try {
             if (wishlistQuantity && !wishlistId) {
-                await userRequest.post('wishlists', {
+                await userRequest.post('/api/wishlists', {
                     userId: user._id, 
                     products: wishlistProducts,
                     createdAt: new Date(),
                     updatedAt: new Date()                   
                 });            
             } else if (wishlistQuantity && wishlistId) {
-                await userRequest.put(`wishlists/${wishlistId}`, {
+                await userRequest.put(`/api/wishlists/${wishlistId}`, {
                     userId: user._id, 
                     products: wishlistProducts,
                     createdAt,
                     updatedAt: new Date()                   
                 });
             } else if (!wishlistQuantity && wishlistId) {
-                await userRequest.delete(`wishlists/${wishlistId}`)
+                await userRequest.delete(`/api/wishlists/${wishlistId}`)
             }
         } catch(err) {
             console.log(err);
@@ -256,11 +262,6 @@ const Navbar = () => {
         i18n.changeLanguage(e.target.value)
     };
 
-    useEffect(() => {
-        if (localStorage.getItem("i18nextLng")?.length > 2) {
-            i18next.changeLanguage("ua");
-        }
-    }, []);
 
   return (
     <Container>
@@ -282,7 +283,7 @@ const Navbar = () => {
             <Center>
                 <LogoImg>
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <Img src='https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1672589270030grape-icon.png?alt=media&token=0938eb5a-b1dc-45a0-9070-ca2a6bd6a0fc' alt='logo' />
+                        <Img src='https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/grape-icon.png?alt=media&token=1a844197-58a8-4d95-b5a1-de50ff6f73c6' alt='logo' />
                     </Link>
                 </LogoImg>
                 <LogoText>

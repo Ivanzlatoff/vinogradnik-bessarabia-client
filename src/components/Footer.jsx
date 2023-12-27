@@ -97,10 +97,12 @@ const Right = styled.div`
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 `;
 
-const ContactItem = styled.div`
+const ContactItem = styled.a`
     margin-top: 20px;
     display: flex;
-    align-items: center
+    align-items: center;
+    text-decoration: none;
+    color: white;
 `;
 
 const Payment = styled.img`
@@ -167,8 +169,8 @@ const Footer = () => {
             {t("send_message")}
         </Link>
         {/* <ContactItem><PlaceIcon style={{ marginRight: '10px'}}/>{t("address")}</ContactItem> */}
-        <ContactItem><PhoneIcon style={{ marginRight: '10px'}} type="tel"/> +38 (096) 104 07 13</ContactItem>
-        <ContactItem><EmailIcon style={{ marginRight: '10px'}}/> ivanzlatoff@gmail.com </ContactItem>
+        <ContactItem href="tel:+380961040713"><PhoneIcon style={{ marginRight: '10px'}} type="tel"/> +38 (096) 104 07 13</ContactItem>
+        <ContactItem href="mailto:vinogradnik.bessarabii@gmail.com"><EmailIcon style={{ marginRight: '10px'}}/> vinogradnik.bessarabii@gmail.com </ContactItem>
         <Payment src='https://i.ibb.co/Qfvn4z6/payment.png'/>
       </Right>
     </Container>

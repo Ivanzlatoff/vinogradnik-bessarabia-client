@@ -82,7 +82,7 @@ const Success = () => {
     useEffect(() => {
       data && (async () => {
         try {
-          const res = await publicRequest.post("/orders", {
+          const res = await publicRequest.post("/api/orders", {
               userId: currentUser?._id,
               products: cart.products.map((item) => ({
                 productId: item._id,
@@ -117,8 +117,8 @@ const Success = () => {
           <EmailMsg>{t("check_email")}</EmailMsg>
           <Desc>
               {t("questions")}
-              <EmailTo href="mailto:ivanzlatoff@gmail.com">
-                ivanzlatoff@gmail.com
+              <EmailTo href="mailto:vinogradnik.bessarabii@gmail.com">
+                vinogradnik.bessarabii@gmail.com
               </EmailTo>  
           </Desc>
           {orderId

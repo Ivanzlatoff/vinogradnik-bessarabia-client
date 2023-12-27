@@ -247,7 +247,7 @@ const Cart = () => {
         stripeToken && cart.totalPrice >= 1 &&
         (async () => {
             try {
-                const res = await publicRequest.post('/checkout/payment', {
+                const res = await publicRequest.post('/api/checkout/payment', {
                     tokenId: stripeToken.id,
                     amount: grandTotal * 100,
                     email,
@@ -293,7 +293,7 @@ const Cart = () => {
     const stripeCheckout =  <StripeCheckout
                                 label={t("proceed_to_payment")}
                                 name={t("stripe_name")}
-                                image="https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/grape-icon.png?alt=media&token=edb90e89-ed75-4e1d-b172-d92fdaba92bb"
+                                image="https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/grape-icon.png?alt=media&token=1a844197-58a8-4d95-b5a1-de50ff6f73c6"
                                 billingAddress
                                 shippingAddress
                                 description={`${t("stripe_desc")} ${grandTotal} ${t("currency")}`}

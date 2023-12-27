@@ -1,7 +1,7 @@
 export const sliderItems_en = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131418423Odesskiy_cherniy2.webp?alt=media&token=f6b5cdb7-4993-4099-8d00-d8b791ca1675',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/isabella3jpg.webp?alt=media&token=2610ecc1-abfc-4983-a364-91345a37ce24',
         category: 'hybrid',
         title: 'GRAPE SALE',
         desc: 'Bessarabian grapes of all sorts',
@@ -9,7 +9,7 @@ export const sliderItems_en = [
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131550425isabella2.webp?alt=media&token=1deaf4a6-0571-4536-858d-6504a097ccf0',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         category: 'vine',
         title: 'ISABELLA',
         desc: 'Bessarabian Isabella',
@@ -17,7 +17,7 @@ export const sliderItems_en = [
     },
     {
         id: 3, 
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlot1.webp?alt=media&token=4caa8704-1f03-4408-a92b-9d1fffcb0d56',
         category: 'european',
         title: 'MERLOT',
         desc: 'Bessarabian Merlot',
@@ -28,7 +28,7 @@ export const sliderItems_en = [
 export const sliderItems_ua = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131418423Odesskiy_cherniy2.webp?alt=media&token=f6b5cdb7-4993-4099-8d00-d8b791ca1675',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/isabella3jpg.webp?alt=media&token=2610ecc1-abfc-4983-a364-91345a37ce24',
         category: 'hybrid',
         title: 'РОЗПРОДАЖ ВИНОГРАДУ',
         desc: 'Бессарабський виноград усіх сортів',
@@ -36,7 +36,7 @@ export const sliderItems_ua = [
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131550425isabella2.webp?alt=media&token=1deaf4a6-0571-4536-858d-6504a097ccf0',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         category: 'vine',
         title: 'ІЗАБЕЛЛА',
         desc: 'Бессарабська Ізабелла',
@@ -44,7 +44,7 @@ export const sliderItems_ua = [
     },
     {
         id: 3, 
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlot1.webp?alt=media&token=4caa8704-1f03-4408-a92b-9d1fffcb0d56',
         category: 'european',
         title: 'МЕРЛО',
         desc: 'Бессарабське Мерло',
@@ -55,7 +55,7 @@ export const sliderItems_ua = [
 export const sliderItems_ru = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131418423Odesskiy_cherniy2.webp?alt=media&token=f6b5cdb7-4993-4099-8d00-d8b791ca1675',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/isabella3jpg.webp?alt=media&token=2610ecc1-abfc-4983-a364-91345a37ce24',
         category: 'hybrid',
         title: 'РАСПРОДАЖА ВИНОГРАДА',
         desc: 'Бессарабский виноград всех сортов',
@@ -63,7 +63,7 @@ export const sliderItems_ru = [
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/1671131550425isabella2.webp?alt=media&token=1deaf4a6-0571-4536-858d-6504a097ccf0',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         category: 'vine',
         title: 'ИЗАБЕЛЛА',
         desc: 'Бессарабская Изабелла',
@@ -71,7 +71,7 @@ export const sliderItems_ru = [
     },
     {
         id: 3, 
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlot1.webp?alt=media&token=4caa8704-1f03-4408-a92b-9d1fffcb0d56',
         category: 'european',
         title: 'МЕРЛО',
         desc: 'Бессарабское Мерло',
@@ -82,25 +82,25 @@ export const sliderItems_ru = [
 export const categories_en = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/isabella4.webp?alt=media&token=d061aa5e-f560-4efa-8d43-50d54c5e0a0a',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/220px-Isabella_grape.webp?alt=media&token=efd8ddb3-95f2-4fe1-a974-985b4dfab2fb',
         title: 'Hybrid',
         category: 'hybrid'
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlo4.webp?alt=media&token=0a1b842b-a98a-44b9-807d-14db5feab7a8',
         title: 'European',
         category: 'european'
     },
     {
         id: 3,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/odessky_cherny3.webp?alt=media&token=1cde06d4-4e6c-402e-b4b7-2361a587216f',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682987375Merlo2.webp?alt=media&token=636e1577-5e1a-40cf-9a52-f254976adc70',
         title: 'Vine',
         category: 'vine'
     },
     {
         id: 4,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Odesskiy_cherniy4.webp?alt=media&token=3de5b8ac-0013-48ed-a5eb-785baa6a2bab',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         title: 'Dessert',
         category: 'dessert'
     }
@@ -109,25 +109,25 @@ export const categories_en = [
 export const categories_ua = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/isabella4.webp?alt=media&token=d061aa5e-f560-4efa-8d43-50d54c5e0a0a',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/220px-Isabella_grape.webp?alt=media&token=efd8ddb3-95f2-4fe1-a974-985b4dfab2fb',
         title: 'Гібрид',
         category: 'hybrid'
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlo4.webp?alt=media&token=0a1b842b-a98a-44b9-807d-14db5feab7a8',
         title: 'Європейський',
         category: 'european'
     },
     {
         id: 3,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/odessky_cherny3.webp?alt=media&token=1cde06d4-4e6c-402e-b4b7-2361a587216f',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682987375Merlo2.webp?alt=media&token=636e1577-5e1a-40cf-9a52-f254976adc70',
         title: 'Вино',
         category: 'vine'
     },
     {
         id: 4,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Odesskiy_cherniy4.webp?alt=media&token=3de5b8ac-0013-48ed-a5eb-785baa6a2bab',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         title: 'Десертне',
         category: 'dessert'
     }
@@ -136,25 +136,25 @@ export const categories_ua = [
 export const categories_ru = [
     {
         id: 1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/isabella4.webp?alt=media&token=d061aa5e-f560-4efa-8d43-50d54c5e0a0a',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/220px-Isabella_grape.webp?alt=media&token=efd8ddb3-95f2-4fe1-a974-985b4dfab2fb',
         title: 'Гибрид',
         category: 'hybrid'
     },
     {
         id: 2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Merlot1.webp?alt=media&token=22217d22-1883-482e-a04d-349876e6c6a5',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/Merlo4.webp?alt=media&token=0a1b842b-a98a-44b9-807d-14db5feab7a8',
         title: 'Европейский',
         category: 'european'
     },
     {
         id: 3,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/odessky_cherny3.webp?alt=media&token=1cde06d4-4e6c-402e-b4b7-2361a587216f',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682987375Merlo2.webp?alt=media&token=636e1577-5e1a-40cf-9a52-f254976adc70',
         title: 'Вино',
         category: 'vine'
     },
     {
         id: 4,
-        img: 'https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/Odesskiy_cherniy4.webp?alt=media&token=3de5b8ac-0013-48ed-a5eb-785baa6a2bab',
+        img: 'https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/1703682954970isabella2.webp?alt=media&token=cd41c08d-c277-492c-bd7e-a733a97a38c4',
         title: 'Десертный',
         category: 'dessert'
     }

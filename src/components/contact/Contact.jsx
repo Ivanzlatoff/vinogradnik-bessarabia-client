@@ -25,7 +25,7 @@ const Contact = () => {
   const onSubmit = async (data) => {
     setIsFetching(true)
     try {
-      const res = await publicRequest.post("./notifications", {
+      const res = await publicRequest.post("/api/notifications", {
         userId: user?._id,
         username: user?.username,
         email: inputs['email'],

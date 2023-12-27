@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "react-i18next";
-import bcrypt from 'bcryptjs';
+
 
 const Container = styled.div`
     width: 100vw;
@@ -15,7 +15,7 @@ const Container = styled.div`
         rgba(255, 255, 255, 0.5), 
         rgba(255, 255, 255, 0.5)
         ),
-        url("https://firebasestorage.googleapis.com/v0/b/shop-80015.appspot.com/o/grape-icon.png?alt=media&token=edb90e89-ed75-4e1d-b172-d92fdaba92bb");
+        url("https://firebasestorage.googleapis.com/v0/b/vb-react-ecommerce-app.appspot.com/o/grape-icon.png?alt=media&token=1a844197-58a8-4d95-b5a1-de50ff6f73c6");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 50% 0;
@@ -95,12 +95,10 @@ const Login = () => {
     const dispatch = useDispatch();
     const { isFetching, error } = useSelector((state) => state.user);
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const salt = bcrypt.genSaltSync(10);
 
     const onSubmit = (data, e) => {
         e.preventDefault();
-        const hashedPassword = bcrypt.hashSync(password, salt)
-        login(dispatch, { username, hashedPassword });
+        login(dispatch, { username, password });
     };  
 
     const { t } = useTranslation(["login"]);

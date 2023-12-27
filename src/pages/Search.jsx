@@ -163,7 +163,7 @@ const ProductSearch = () => {
         (async () => {
             try {
                 setIsLoading(true);
-                const res = await publicRequest.get('/products/search/' + deferredQuery)
+                const res = await publicRequest.get('/api/products/search/' + deferredQuery)
                 if (res.data) {
                     const {desc, ...others} = res.data && res.data;
                     setProduct({...others, ...desc})
